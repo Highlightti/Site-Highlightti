@@ -1,0 +1,301 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url(Comfortaa-Regular.ttf);
+}
+
+#particles-js {
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+#particles2-js {
+    z-index: 0;
+    width: 100%;
+    height: 49%;
+    position: absolute;
+    top: 300vh;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Comfortaa;
+}
+
+.menu {
+    z-index: 2;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    backface-visibility: visible;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: .3%;
+}
+
+.linkimg {
+    transform: translateY(-30%);
+}
+
+.menu a {
+    color: white;
+    text-align: center;
+    transform: translateY(30%);
+}
+
+.imagemMenu {
+    background-image: url("../img/logo_highlightti_nome.png");
+    width: 310px;
+    height: 40px;
+    background-color: white;
+    background-size: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    z-index: 2;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+    padding-top: 37%;
+    background: linear-gradient(#000046, #1cb5e0);
+}
+
+.logo {
+    width: 15vw;
+    position: absolute;
+    top: 50%;
+    left: 42.5%;
+    transform: translateY(-45%);
+    z-index: 0;
+}
+
+.medianav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+/* Inicio Scroll */
+
+html::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+
+html::-webkit-scrollbar {
+    width: 7px;
+    background: #F4F4F4;
+    border-radius: 5px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #c0bebe;
+}
+
+/* Fim do Scroll */
+
+/* Seta */
+
+#arrow {
+    position: fixed;
+    right: 1%;
+    top: 90%;
+    z-index: 1;
+}
+
+#arrow img {
+    width: 50px;
+    height: 50px;
+}
+
+.arrowfadeout {
+    visibility: hidden;
+}
+
+/* Fim da Seta */
+
+/* ---------------------------- */
+
+/* Secao sobre */
+
+.sobre {
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+    z-index: -1;
+    background: linear-gradient(#1cb5e0, #f4f4f4);
+    /* background-color: #1cb5e0; */
+}
+
+.sobre h2 {
+    text-align: center;
+    padding-top: 2px;
+}
+
+.sobre p {
+    text-align: justify;
+}
+
+#textSobre p {
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+    border-bottom: 2px #000 solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#h2missao {
+    padding-top: 3%;
+}
+
+#textMissao p {
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+    border-bottom: 2px #000 solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Fim secao sobre */
+
+/* Secao Solucoes */
+
+.solucoes {
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+    z-index: -1;
+    background: linear-gradient(#f4f4f4, #f4f4f4);
+}
+
+.solucoes h2 {
+    text-align: center;
+    padding-top: 2px;
+}
+
+.solucoes button {
+    text-align: justify;
+}
+
+#textSolucoes p {
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+    border-bottom: 2px #000 solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+}
+
+#h3kill {
+    padding-top: 10%;
+    text-align: center;
+}
+
+/* Fim secao Solucoes */
+
+/* Rodape */
+
+footer {
+    /* background-image: url(../img/footer2.jpg); */
+    background: linear-gradient(#485563, #29323c);
+    height: 50%;
+    padding-top: 2%;
+    padding-left: 2%;
+    z-index: -1;
+}
+
+.rodape {
+    position: sticky;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+
+.rodape a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Fim Rodadpe */
+
+@media (max-width: 768px) {
+    header {
+        height: 105vh;
+    }
+    #arrow {
+        right: 3%;
+        top: 90%;
+    }
+    .medianav {
+        margin-bottom: 3%;
+    }
+    .logo {
+        width: 50vw;
+        left: 26%;
+    }
+    /* Secao sobre redimensionada */
+    .sobre {
+        padding-top: 15%;
+        height: 115vh;
+        background: linear-gradient(#1cb5e0, #f4f4f4);
+    }
+    #textSobre p {
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+        font-size: 15px;
+    }
+    #textMissao p {
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+        font-size: 15px;
+    }
+    /* Fim secao sobre redimensionada */
+    /* Secao solucoes redimensionada */
+    .solucoes {
+        padding-top: 10vh;
+        height: 110vh;
+    }
+    #textSolucoes p {
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+    }
+    #h3kill {
+        padding-top: 50%;
+        text-align: center;
+    }
+    /* Fim secao solucoes redimensionada */
+    /* Inicio Footer redimensionado */
+    footer {
+        /* background-image: url(../img/footersize.jpg); */
+        height: 50%;
+        padding-top: 2%;
+        padding-left: 2%;
+    }
+    #particles2-js {
+        height: 50%;
+        top: 330vh;
+    }
+    /* Fim footer redimensionado */
+    @media (min-width: 768px) and (orientation: landscape) {
+        .logo {
+            width: 50vw;
+            left: 26%;
+        }
+    }
+}

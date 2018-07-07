@@ -28,17 +28,20 @@ body {
 .menu {
     z-index: 2;
     position: absolute;
-    margin-top: 15px;
+   /* margin-top: 15px;
     margin-left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%);*/
     text-align: center;
     backface-visibility: visible;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
     padding: .3%;
 }
 
 .linkimg {
     transform: translateY(-30%);
+    position: relative;
+    left: -27%;
 }
 
 .menu a {

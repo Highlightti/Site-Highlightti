@@ -35,7 +35,6 @@ body {
     backface-visibility: visible;
     background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
-    padding: .2%;
 }
 
 .linkimg {
@@ -48,7 +47,7 @@ body {
 .menu a {
     color: white;
     text-align: center;
-    transform: translateY(30%);
+    transform: translateY(25%);
 }
 
 .imagemMenu {
@@ -60,7 +59,7 @@ body {
     background-repeat: no-repeat;
     color: transparent;
     z-index: 2;
-    transform: translateX(38%);
+    transform: translateX(38.5%);
 }
 
 header {
@@ -85,7 +84,7 @@ header {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-    transform: translateX(-12%);
+    transform: translateX(-12.5%);
 }
 
 /* Inicio Scroll */

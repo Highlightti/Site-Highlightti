@@ -35,13 +35,14 @@ body {
     backface-visibility: visible;
     background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
-    padding: .3%;
+    padding: .2%;
 }
 
 .linkimg {
-    transform: translateY(-30%);
+    transform: translateY(-25%);
     position: relative;
     left: -27%;
+    
 }
 
 .menu a {
@@ -54,12 +55,12 @@ body {
     background-image: url("../img/logo_highlightti_nome.png");
     width: 310px;
     height: 40px;
-    background-color: white;
     background-size: 95%;
     background-position: center;
     background-repeat: no-repeat;
     color: transparent;
     z-index: 2;
+    transform: translateX(38%);
 }
 
 header {
@@ -84,6 +85,7 @@ header {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    transform: translateX(-12%);
 }
 
 /* Inicio Scroll */

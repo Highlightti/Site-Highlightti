@@ -28,12 +28,12 @@ body {
 .menu {
     z-index: 2;
     position: absolute;
-   /* margin-top: 15px;
+    /* margin-top: 15px;
     margin-left: 50%;
     transform: translateX(-50%);*/
     text-align: center;
     backface-visibility: visible;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
 }
 
@@ -41,7 +41,6 @@ body {
     transform: translateY(-25%);
     position: relative;
     left: -27%;
-    
 }
 
 .menu a {
@@ -132,15 +131,16 @@ html::-webkit-scrollbar-thumb {
 .sobre {
     width: 100%;
     height: 100%;
-    padding-top: 5%;
     z-index: -1;
-    background: linear-gradient(#1cb5e0, #f4f4f4);
+    background-color: #ffff;
     /* background-color: #1cb5e0; */
 }
 
 .sobre h2 {
-    text-align: center;
-    padding-top: 2px;
+    text-align: left;
+    padding-top: 4%;
+    padding-bottom: 15px;
+    margin-left: 15%;
 }
 
 .sobre p {
@@ -155,6 +155,20 @@ html::-webkit-scrollbar-thumb {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+div.cardSobre {
+    width: 45%;
+    background-color: #000;
+    color: #ffffff;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: justify;
+    margin-left: 10%;   
+}
+
+p.cardSobre {
+padding: 30px;  
+}
+
 
 #h2missao {
     padding-top: 3%;
@@ -178,7 +192,7 @@ html::-webkit-scrollbar-thumb {
     height: 100%;
     padding-top: 5%;
     z-index: -1;
-    background: linear-gradient(#f4f4f4, #f4f4f4);
+    background-color: #ffff;
 }
 
 .solucoes h2 {
@@ -214,8 +228,8 @@ html::-webkit-scrollbar-thumb {
 
 footer {
     /* background-image: url(../img/footer2.jpg); */
-    background: linear-gradient(#485563, #29323c);
-    height: 50%;
+    background-color: #5a5a5a;
+    height: 100%;
     padding-top: 2%;
     padding-left: 2%;
     z-index: -1;
@@ -234,6 +248,8 @@ footer {
 }
 
 /* Fim Rodadpe */
+
+/* Inicio redimensionamento */
 
 @media (max-width: 768px) {
     header {

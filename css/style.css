@@ -47,6 +47,7 @@ body {
     color: white;
     text-align: center;
     transform: translateY(25%);
+    margin-right: 40px;
 }
 
 .imagemMenu {
@@ -58,7 +59,7 @@ body {
     background-repeat: no-repeat;
     color: transparent;
     z-index: 2;
-    transform: translateX(38.5%);
+    transform: translateX(64%);
 }
 
 header {
@@ -228,7 +229,7 @@ padding: 30px;
 
 footer {
     /* background-image: url(../img/footer2.jpg); */
-    background-color: #5a5a5a;
+    background-color: #c7c7c7;
     height: 100%;
     padding-top: 2%;
     padding-left: 2%;

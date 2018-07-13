@@ -167,7 +167,49 @@ div.cardSobre {
 }
 
 p.cardSobre {
-padding: 30px;  
+    padding: 30px;  
+}
+
+#h2Valor {
+    transform: translateY(-65%);
+    text-align: left;
+    padding-bottom: 15px;
+    margin-left: 80%;
+}
+
+
+div.valor1 {
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 65%;   
+}
+
+.tag1 {
+    transform: translateY(-100%);
+    padding-left: 12px;
+    padding-top: 2px;
+    padding-right: 12px;
+    float: left; 
+    background-color: #000;
+    border-color: #000;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.tag2 {
+    transform: translateY(-100%);
+    width: 45%;
+    padding-top: 2px;
+    background-color: #ffffff;
+    color: #000;
+    float: left;
+    border-color: #000;
+    border-style: solid;
+    border-width: 2px;
+    
 }
 
 

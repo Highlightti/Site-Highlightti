@@ -33,7 +33,7 @@ body {
     transform: translateX(-50%);*/
     text-align: center;
     backface-visibility: visible;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
 }
 

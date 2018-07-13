@@ -27,7 +27,7 @@ body {
 
 .menu {
     z-index: 2;
-    position: absolute;
+    position: fixed;
     /* margin-top: 15px;
     margin-left: 50%;
     transform: translateX(-50%);*/
